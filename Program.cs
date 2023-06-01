@@ -22,7 +22,7 @@ else
         WriteLine("Sua Glicemia está Baixa! Faça a Ingestão de açúcar para estabilizar!");
     }
     else
-    WriteLine("Sua Glicemia está Normal! Continue se cuidando!");
+    WriteLine("Sua Glicemia está Normal! Continue se cuidando Bem!");
 }
 ReadKey();
 
