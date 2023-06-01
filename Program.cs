@@ -19,7 +19,7 @@ else
 {
     if (n1 < 80)
     {
-        WriteLine("Sua Glicemia está Baixa! Coma açúcar para estabilizar!");
+        WriteLine("Sua Glicemia está Baixa! Faça a Ingestão de açúcar para estabilizar!");
     }
     else
     WriteLine("Sua Glicemia está Normal! Continue se cuidando!");
