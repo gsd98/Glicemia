@@ -6,7 +6,7 @@ WriteLine("Nome do Paciente:");
 ReadLine();
 WriteLine("Idade do Paciente:");
 ReadLine();
-WriteLine("Cidade e Estado aonde reside:");
+WriteLine("Possui Diabetes?");
 ReadLine();
 int n1;
 WriteLine("Digite Sua Glicemia:");
