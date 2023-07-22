@@ -46,11 +46,11 @@ for (int i = 0; i < Convert.ToInt32(numgli); i++)
 // Abaixo temos a variável int valores serve pra definir a posição inicial da lista.
 int valores = 0;
 /* Abaixo mostra o nome do paciente digitado no inicio do programa, e a refeição com os valores
-glicemicos. */ 
+glicemicos. */
 WriteLine($"Paciente: {paciente[valores]}");
 WriteLine("Suas glicemias no dia foram:");
 foreach (int gli2 in glicemia)
-{
+{ 
     WriteLine($"{refeicao[valores]} - {gli2} mg/dL");
     valores++;
 }
@@ -66,18 +66,18 @@ foreach (int gli in glicemia)
  trar a media de glicemia naquele dia */
 media = soma/numgli;
 // Aqui vem as condicionais para saber se a média do dia está alta, normal ou baixa.
-WriteLine($"A média de glicemia do dia foi: {media} mg/dL");
+WriteLine($"A média de glicemia do dia foi de: {media} mg/dL");
 if (media >= 180)
 {
-    WriteLine("A média do dia está alta!");
+    WriteLine("A média de glicemia do dia está alta!");
     
 }
 else if (media < 80)
 {
-    WriteLine("A média do dia está baixa!");
+    WriteLine("A média de glicemia do dia está baixa!");
 }
 else
 {
-    WriteLine("A média do dia está normal!");
+    WriteLine("A média de glicemia do dia está normal!");
 }
 ReadKey();
